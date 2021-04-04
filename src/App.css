@@ -1,0 +1,46 @@
+/* .App {
+} */
+
+.Header {
+  padding-top: 0;
+  height: 600px;
+  background-image: url("Little_Nightmares.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.AboutUs {
+  height: 300px;
+  background-color: DarkSlateGray;
+  position: relative;
+}
+.AboutUs::before {
+  content: "";
+  background-color: DarkSlateGray;
+  position: absolute;
+  height: 100%;
+  width: 1440px;
+  left: -150px;
+  z-index: -1;
+}
+
+.WhatWeDo {
+  height: auto;
+  background-color: DarkOliveGreen;
+  position: relative;
+}
+.WhatWeDo::before {
+  content: "";
+  background-color: DarkOliveGreen;
+  position: absolute;
+  height: 100%;
+  width: 1440px;
+  left: -150px;
+  z-index: -1;
+}
