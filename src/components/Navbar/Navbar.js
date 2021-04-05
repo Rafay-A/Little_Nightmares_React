@@ -21,13 +21,15 @@ export default function ButtonAppBar() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar style={{ background: "#2E3B55" }} position="static">
         <Toolbar style={{ 'paddingLeft': '0px' }}>
           <img style={{ 'width': '105px', 'backgroundColor': 'white' }} src="images/logo.png" alt={'Hello'}></img>
-          <Typography style={{'color': 'black', 'maxWidth': '330px', 'backgroundColor':'white', 'paddingLeft':'40px', 'marginRight':'40%', 'border': '1px solid black', 'borderLeftStyle': 'none', 'borderRadius': '0px 10px 10px 0px'}} 
+          
+          <Typography style={{'color': 'black', 'maxWidth': '330px','marginRight':'40%', 'border': '1px solid black', 'borderLeftStyle': 'none', 'borderRadius': '0px 10px 10px 0px', 'backgroundColor':'white', 'paddingLeft':'40px'}} 
           variant="h6" className={classes.title}>
             Tarsier Studios
           </Typography>
+
           <Button color="inherit">Menu</Button>
           <Button href='#aboutus' color="inherit">About Us</Button>
           <Button href='#whatwedo' color="inherit">What We Do</Button>

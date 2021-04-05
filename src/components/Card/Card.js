@@ -26,7 +26,7 @@ const useStyles = makeStyles({
     width: 500,
     borderTop:'none',
     borderRadius: '0px 0px 30px 30px',
-    backgroundColor: '#3366cc',
+    backgroundColor: '#2E3B55',
     margin: '0px auto',
   },
 });
@@ -37,7 +37,7 @@ export default function SimpleCard() {
     <Card className={classes.root}>
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
-        <h2 style={{'textAlign':'center'}}>Welcome to Little Nightmares!</h2>
+        <h2 style={{'textAlign':'center', 'color':'white'}}>Welcome to Little Nightmares!</h2>
         </Typography>
       </CardContent>
     </Card>
