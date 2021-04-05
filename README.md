@@ -2,6 +2,7 @@
 
 #Modules Required:
 
-#// with npm
+#with npm:
+
 #npm install @material-ui/core@next
 #npm install material-icons
