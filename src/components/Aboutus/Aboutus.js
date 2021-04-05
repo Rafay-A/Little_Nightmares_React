@@ -10,10 +10,8 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     textAlign: 'center',
-    // color: theme.palette.text.secondary,
-    padding: '7px auto',
-    marginTop: '3%',
     backgroundColor: 'Teal',
+    marginTop: '5%',
     color: 'white'
   },
 }));
@@ -25,10 +23,10 @@ export default function CenteredGrid() {
     <div className={classes.root}>
       <Grid container spacing={1}>
         <Grid item xs={3}>
-            <img style={{ 'width': '200px', 'paddingTop': '30px'}} src="images/logo.png" alt={'Hello'}></img>
+            <img style={{ 'width': '200px', 'paddingTop': '3px'}} src="images/logo2.jpg" alt={'Hello'}></img>
         </Grid>
         <Grid item xs={9}>
-          <Paper style={{ 'paddingTop': '10px', 'paddingBottom':'10px' }} className={classes.paper}>
+          <Paper style={{'paddingTop': '3px'}} className={classes.paper}>
             Little Nightmares is a puzzle-platform horror adventure game developed by Tarsier Studios and published by Bandai Namco Entertainment for Microsoft Windows, PlayStation 4, Nintendo Switch, Xbox One, and Stadia. Set in a mysterious world, Little Nightmares follows the journey of Six, a hungry little girl who must escape the Maw, an iron vessel inhabited by monstrous, twisted beings. The game received positive reviews upon release with critics praising its atmosphere, graphics, and sound, while criticizing its checkpoint system and short length. A prequel, Little Nightmares II, was released in February 2021.
           </Paper>
         </Grid>

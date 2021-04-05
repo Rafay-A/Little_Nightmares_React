@@ -1,18 +1,18 @@
 /* .App {
 } */
 
-.Header {
-  padding-top: 0;
-  height: 600px;
-  background-image: url("Little_Nightmares.jpg");
-  background-size: cover;
-  background-repeat: repeat-y;
-  background-position: center;
-}
-
 h2 {
   margin-top: 0;
   padding-top: 20px;
+}
+
+.Header {
+  padding-top: 0;
+  height: 600px;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  background-image: url("Little_Nightmares.jpg");
 }
 
 .AboutUs {
@@ -20,27 +20,29 @@ h2 {
   background-color: DarkSlateGray;
   position: relative;
 }
-.AboutUs::before {
-  content: "";
-  background-color: DarkSlateGray;
-  position: absolute;
-  height: 100%;
-  width: 1440px;
-  left: -150px;
-  z-index: -1;
-}
 
 .WhatWeDo {
   height: auto;
   background-color: DarkOliveGreen;
   position: relative;
 }
-.WhatWeDo::before {
-  content: "";
-  background-color: DarkOliveGreen;
-  position: absolute;
+
+.AboutUs::before {
   height: 100%;
   width: 1440px;
   left: -150px;
   z-index: -1;
+  content: "";
+  background-color: DarkSlateGray;
+  position: absolute;
+}
+
+.WhatWeDo::before {
+  height: 100%;
+  width: 1440px;
+  left: -150px;
+  z-index: -1;
+  content: "";
+  background-color: DarkOliveGreen;
+  position: absolute; 
 }

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Itemcard from '../ItemCard/ItemCard'
-// import Jon from "../../public/images/jonSnow.png"
+import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -61,6 +60,7 @@ export default function CenteredGrid() {
     moreInfo: 'The Thin Man is a tall, slender being adorned in a black suit and hat, which ominously steeps his eyes in shadow. Like his grayscale wardrobe, his bleak, wrinkled skin is similarly colorless, calling to mind black-and-white films of the 1940s-50s - a possible allusion to his ability to influence televisions. His stature is crooked and misaligned, with cheekbones and closed eyes that appear sunken and emaciated, giving him a corpse-like appearance."'
   }
 ]);
+
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
