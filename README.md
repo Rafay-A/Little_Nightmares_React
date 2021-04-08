@@ -4,5 +4,5 @@
 
 #with npm:
 
-#npm install @material-ui/core@next
+#npm install @material-ui/core@next \n
 #npm install material-icons
