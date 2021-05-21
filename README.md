@@ -1,8 +1,7 @@
-# Little_Nightmares_React
+## Little_Nightmares_React
 
-#Modules Required:
+Modules Required(with npm):
 
-#with npm:
+npm install @material-ui/core
 
-#npm install @material-ui/core@next \n
-#npm install material-icons
+npm install material-icons
